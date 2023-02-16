@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    align-items: center;
+    height: 4rem;
+    margin-bottom: 2rem;
+    background: #1dacac80;
+    width: 100%;
+}
+.buttons{
+    color: #83dada;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 2px rgb(19, 1, 0);
+    font-family: Impact, Charcoal, sans-serif;
+    transition: transform 557ms ease-out;
+}
+.buttons:hover{
+    transform: translate(0px, 0px) scale(0.9, 0.9);
+}

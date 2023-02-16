@@ -1,0 +1,34 @@
+.divSearchBar{
+    margin-right: 2rem;
+}
+.inputSearchBar{
+    margin-right: 10px;
+    height: 1.7rem;
+    width: 12rem;
+}
+.inputSearchBar:focus{
+    outline: none;
+}
+.buttonSearchBar{
+    color: #83dada;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 2px rgb(19, 1, 0);
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: rgb(0, 36, 28);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    
+}
+.buttonSearchBar:hover {
+    background-color: #83dada;
+    color: white;
+}
